@@ -1,24 +1,3 @@
-# Inicializar repositorio y añadir archivo demo
-git init
-echo "# Proyecto" >> README.md
-
-# Añadir archivos al repositorio
-git add .
-
-# Hacer commit
-git commit -m "Primer commit"
-
-# Crear rama main
-git branch -M main
-
-# Añadir repositorio remoto
-git remote add origin https://github.com/usuario/repositorio.git
-
-# Subir código
-git push -u origin main
-
-
-
 # Función para leer el archivo 'numeros.txt'
 leer_numeros <- function(archivo) {
   # Verificar si el archivo existe
