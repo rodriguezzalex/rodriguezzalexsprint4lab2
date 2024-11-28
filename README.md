@@ -1,3 +1,5 @@
+https://github.com/rodriguezzalex/rodriguezzalexsprint4lab2.git
+
 # Función para leer el archivo 'numeros.txt'
 leer_numeros <- function(archivo) {
   # Verificar si el archivo existe
